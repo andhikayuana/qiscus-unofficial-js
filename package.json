@@ -1,0 +1,29 @@
+{
+  "name": "qiscus-unofficial",
+  "version": "1.0.0",
+  "description": "unofficial qiscus api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andhikayuana/qiscus-unofficial-js.git"
+  },
+  "keywords": [
+    "qiscus"
+  ],
+  "author": "andhikayuana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andhikayuana/qiscus-unofficial-js/issues"
+  },
+  "homepage": "https://github.com/andhikayuana/qiscus-unofficial-js#readme",
+  "dependencies": {
+    "axios": "^0.21.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^6.0.0"
+  }
+}
