@@ -1,4 +1,5 @@
-const QiscusApi = require('qiscus-unofficial').QiscusApi
+
+import {QiscusApi} from 'qiscus-unofficial'
 
 const sdk = new QiscusApi({
     appId: 'sdksample',
@@ -13,5 +14,5 @@ sdk.loginOrRegister({
 }).then(response => {
     console.log(response.data)
 }).catch(err => {
-    console.log(err)
+    console.log(err.response.data)
 })

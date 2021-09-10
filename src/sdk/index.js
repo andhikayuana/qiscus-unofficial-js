@@ -1,6 +1,6 @@
-const axios = require('axios').default
+import axios from 'axios'
 
-export default class QiscusApi {
+export class QiscusApi {
     constructor({
         appId = null,
         secretKey = null,
